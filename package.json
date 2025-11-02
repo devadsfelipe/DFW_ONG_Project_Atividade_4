@@ -1,0 +1,22 @@
+{
+  "name": "atividade-4",
+  "version": "1.0.0",
+  "description": "Código referente a Atividade 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devadsfelipe/DFW_ONG_Project_Atividade_4.git"
+  },
+  "keywords": [
+    "ads"
+  ],
+  "author": "Felipe S. Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devadsfelipe/DFW_ONG_Project_Atividade_4/issues"
+  },
+  "homepage": "https://github.com/devadsfelipe/DFW_ONG_Project_Atividade_4#readme"
+}

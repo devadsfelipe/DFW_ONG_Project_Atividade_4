@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardiões de Xique-Xique</title>
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="Style/style.min.css">
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="logo-area">
+            <img src="Assets/Images/logo.png" alt="Logotipo da organização Guardiões de Xique-Xique" width="150" height="150">
+            <h1>Guardiões de Xique-Xique: Transformando Vidas pela Comunidade</h1>
+            
+            <button id="theme-toggle" aria-label="Alternar para tema de alto contraste ou modo escuro" class="btn btn-secondary">
+                <span aria-hidden="true">🌓</span>
+            </button>
+        </div>
+        
+        <nav aria-label="Navegação Principal do Site">
+            <ul id="main-nav-list" role="menubar">
+                <li role="none"><a href="#inicio" data-route="inicio" class="active" role="menuitem">Início</a></li>
+                
+                <li class="dropdown" role="none">
+                    <a id="dropdown-toggle" href="#projetos" data-route="projetos" 
+                       aria-haspopup="true" aria-expanded="false" role="menuitem">
+                        Nossos Projetos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-toggle" role="menu">
+                        <li role="none"><a href="#projetos" data-route="projetos" role="menuitem">Ver Todos os Projetos</a></li>
+                        </ul>
+                </li>
+                
+                <li role="none"><a href="#cadastro" data-route="cadastro" role="menuitem">Faça Parte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="app-container">
+        </div>
+
+    <footer role="contentinfo">
+        <p><a href="#contato" data-route="contato" aria-label="Entre em contato conosco por meio da página de contato.">Entre em contato conosco!</a></p>
+    </footer>
+    
+    <script src="./Scripts/templates.min.js"></script>
+    <script src="./Scripts/script.min.js"></script>
+</body>
+</html>
